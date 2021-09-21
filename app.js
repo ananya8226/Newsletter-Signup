@@ -36,7 +36,7 @@ app.post("/", function(req, res){
 	
 	const options = {
 		method: "POST",
-		auth: "ananya:417db246de24ae7c0a7b5943a6fae357-us5"
+		auth: "ananya:417db246de24ae7c0a7b5943a6fae357-us5"  // this api key is disabled
 	}
 
 	const request = https.request(url, options, function(response){
@@ -64,9 +64,3 @@ app.post("/failure", function(req, res){
 app.listen(process.env.PORT||3000, function(){
 	console.log("Server started at port 3000");
 });
-
-
-
-
-//417db246de24ae7c0a7b5943a6fae357-us5
-//fb98990099
